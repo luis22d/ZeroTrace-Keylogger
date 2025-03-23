@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/02/05 10:37:41.000.699,=C:\Users\aarbe\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2025/02/05 10:37:50.000.803,C:\Users\aarbe\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\aarbe\Documents\Embarcadero\Studio\Projects\Stub.dproj</Transaction>
+    <Transaction>2025/02/05 10:37:55.000.366,C:\Users\aarbe\Documents\Embarcadero\Studio\Projects\Unit4.pas=C:\Users\aarbe\Documents\Embarcadero\Studio\Projects\Stub.pas</Transaction>
+    <Transaction>2025/02/05 10:37:55.000.366,C:\Users\aarbe\Documents\Embarcadero\Studio\Projects\Unit4.dfm=C:\Users\aarbe\Documents\Embarcadero\Studio\Projects\Stub.dfm</Transaction>
+    <Transaction>2025/02/05 10:38:18.000.813,C:\Users\aarbe\Documents\Embarcadero\Studio\Projects\Stub.dproj=C:\Users\aarbe\Documents\Embarcadero\Studio\Projects\GhostStub.dproj</Transaction>
+    <Transaction>2025/02/05 10:38:28.000.695,C:\Users\aarbe\Documents\Embarcadero\Studio\Projects\Stub.dfm=C:\Users\aarbe\Documents\Embarcadero\Studio\Projects\GhostStubFrm.dfm</Transaction>
+    <Transaction>2025/02/05 10:38:28.000.695,C:\Users\aarbe\Documents\Embarcadero\Studio\Projects\Stub.pas=C:\Users\aarbe\Documents\Embarcadero\Studio\Projects\GhostStubFrm.pas</Transaction>
+    <Transaction>2025/02/05 10:38:32.000.403,C:\Users\aarbe\Documents\Embarcadero\Studio\Projects\GhostStub.dproj=C:\Users\aarbe\Documents\Embarcadero\Studio\Projects\GhostStub.dproj</Transaction>
+    <Transaction>2025/02/08 13:37:37.000.011,=D:\Embarcadero\resources.rc</Transaction>
+    <Transaction>2025/03/09 11:56:00.000.350,E:\Embarcadero\GhostStub.dproj=E:\Embarcadero\ZeroStub.dproj</Transaction>
+    <Transaction>2025/03/22 19:54:24.000.032,C:\Users\steffz\Desktop\ZeroTrace Keylogger\ZeroStub.dproj=E:\Embarcadero\ZeroStub.dproj</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="E:"/>
+    <File Path="E:\Embarcadero"/>
+    <File Path="E:\Embarcadero\GhostStubFrm.pas"/>
+    <File Path="E:\Embarcadero\GhostStubFrm.dfm"/>
+    <File Path="E:\Embarcadero\resources.rc"/>
+  </ProjectSortOrder>
+</BorlandProject>

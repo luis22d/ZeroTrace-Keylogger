@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{F774B669-E757-4042-9FF0-C08661C25F25}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ZeroTraceKeloygger.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ZeroStub.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ZeroTraceKeloygger">
+        <MSBuild Projects="ZeroTraceKeloygger.dproj"/>
+    </Target>
+    <Target Name="ZeroTraceKeloygger:Clean">
+        <MSBuild Projects="ZeroTraceKeloygger.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ZeroTraceKeloygger:Make">
+        <MSBuild Projects="ZeroTraceKeloygger.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ZeroStub">
+        <MSBuild Projects="ZeroStub.dproj"/>
+    </Target>
+    <Target Name="ZeroStub:Clean">
+        <MSBuild Projects="ZeroStub.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ZeroStub:Make">
+        <MSBuild Projects="ZeroStub.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ZeroTraceKeloygger;ZeroStub"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ZeroTraceKeloygger:Clean;ZeroStub:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ZeroTraceKeloygger:Make;ZeroStub:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
