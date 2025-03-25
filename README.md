@@ -5,8 +5,8 @@ ZeroTrace Keylogger, Is Designed To Capture Keystrokes And Clipboard, And Send T
 Delphi 12.2 Architect
 
 ## Library Used
-ZeroCom
-DzSockets
+https://github.com/digao-dalpiaz/DzSocket
+ZeroCom Can Be Found On Github.
 
 Libraries Can Be Found On Github.
 
